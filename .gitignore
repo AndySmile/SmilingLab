@@ -26,3 +26,13 @@
 *.exe
 *.out
 *.app
+
+##
+# OS Files.
+##
+.DS_Store
+
+##
+# Simple2D Files.
+#
+/Simple2D/lib
