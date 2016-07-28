@@ -33,6 +33,11 @@
 .DS_Store
 
 ##
+# Libraries.
+#
+lib
+
+##
 # Simple2D Files.
 #
 /Simple2D/lib
