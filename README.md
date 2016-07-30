@@ -13,3 +13,5 @@ This project is a simple demo to demonstrate PerPixelLighting using GLSL.
 
 It's a basic project to see how to use the SFML framework by implementing a simple 2D scene where an image
 is bouncing from one edge of the window to another. 
+
+![Simple2D](Doc/Images/Simple2D.png)
