@@ -26,6 +26,7 @@
 *.exe
 *.out
 *.app
+/Simple2D/Simple2D
 /ScannerFx/ScannerFx
 /PerPixelLighting/PerPixelLighting
 
@@ -43,5 +44,5 @@ lib
 # Simple2D Files.
 #
 /Simple2D/lib
-/Simple2D/Simple2D
+
 
