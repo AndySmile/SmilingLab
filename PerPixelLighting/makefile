@@ -77,8 +77,8 @@ LIST_OBJECTS_TEST =
 DEBUG_SETTINGS = -g -D_DEBUG
 
 # common and linker specific configuration for the executable
-COMMON_SETTINGS = $(DEBUG_SETTINGS) -std=c++11 -Weffc++ -Wall -I src/ -F lib/SFML-2.3.1/Frameworks
-LINKER_SETTINGS = -framework SFML -framework sfml-graphics -framework sfml-window -framework sfml-system
+COMMON_SETTINGS = $(DEBUG_SETTINGS) -std=c++11 -Weffc++ -Wall -I src/
+LINKER_SETTINGS = -framework SFML -framework sfml-graphics -framework sfml-window -framework sfml-system -F /Library/Frameworks
 
 # common and link specific configuration for the unit test executable
 COMMON_TEST_SETTINGS = -D_UNITTEST $(COMMON_SETTINGS)
